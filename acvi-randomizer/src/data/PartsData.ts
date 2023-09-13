@@ -53,7 +53,7 @@ const RArmWeponData: PartsType[] = [
     name: "SG-026 HALDEMAN",
     category: "",
     image:
-      "",
+      "https://lh3.googleusercontent.com/Z0ZkulnVeLbne_aQExXztpJa86-AAoK9iLpz4R6-ruitZIIIp64Bugetrgly4iOoICQzQxlK8juzFbepzZH7n_Cytiop1LlPFKZjHFRrSSQ",
   },
 ];
 
