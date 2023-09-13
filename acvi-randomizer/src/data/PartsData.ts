@@ -154,7 +154,126 @@ const ArmsData: PartsType[] = [
 ];
 
 const LegsData: PartsType[] = [
-  { name: "2C-2000 CRAWLER", category: "", image: "https://lh3.googleusercontent.com/gQQcptp2hVlRg2wpMsEAtDSXsQfV0y76Ep8gsQ8alG6Xwr7ErIRjb41eGDF8vM8ZPkr8Jfe_wXT7MIzq8ijACqAFTL-qpfhHsr1s-QIIYN4=rw" },
+  {
+    name: "2C-2000 CRAWLER",
+    category: "",
+    image: "https://lh3.googleusercontent.com/gQQcptp2hVlRg2wpMsEAtDSXsQfV0y76Ep8gsQ8alG6Xwr7ErIRjb41eGDF8vM8ZPkr8Jfe_wXT7MIzq8ijACqAFTL-qpfhHsr1s-QIIYN4=rw"
+  },
+  {
+    name: "AL-J-121 BASHO",
+    category: "",
+    image: "https://lh3.googleusercontent.com/sClZiGc_OEyJGf3Bj9bjeAATOrbOOFuFdcJDFUOWJ3u9ZZywqJy9vV4_soDaXjvonGqJflZIluLeax5Wai6iAHBAg8XLAId38UolHqYUOYYT=rw"
+  },
+  {
+    name: "LG-011 MELANDER",
+    category: "",
+    image: "https://lh3.googleusercontent.com/O-vaKEj5BtQis7FRiCKZgbQv18s8TMoJQJPdkpXzC7OHWo0_FyE6w6gauGdbA-6J7J0F7jKo_LXbuyeUCtQIxnXjgDHromyuwnvgBv6UWGgxCw"
+  },
+  {
+    name: "DF-LG-08 TIAN-QIANG",
+    category: "",
+    image: "https://lh3.googleusercontent.com/3zs_bIin43llbbkgKSbE_GgD-RnYgWckjvLSp73kDuuDPgTk7mWjN_HnbA2WdWOeeRszsbhKqHNKKt_pZMvTXH9oaDN8e923d3xX56TPp8g"
+  },
+  {
+    name: "VP-422",
+    category: "",
+    image: "https://lh3.googleusercontent.com/lFpLZTrLG0pLj40hlhSnk4HNUBfQDO_MlMmzEljLdDgvtDu6FMTSICzCXqXgLLOGLWiZTmfSRvlqY8d0GOLy2XmDMvWtHNMFCN1iGAS18Is7"
+  },
+  {
+    name: "NACHTREIHER/42E",
+    category: "",
+    image: "https://lh3.googleusercontent.com/wdwOHAAJKHlnc5lE8CvDYE-OX5Ef6E28YWIpGAEoCWECvJMI-akBDA7muj9xDo3DrNuwqUZxj7tx90Zf82FfEkT9IhoFrkC6CKGuxfXdfVZR"
+  },
+  {
+    name: "EL-TL-10 FIRMEZA",
+    category: "",
+    image: "https://lh3.googleusercontent.com/eBJx3-CYxEPRG4SW1ZvVXR8N3rAeekxVL5KRa1hW26WtD5msa0mtmuHtjetoN2K9rblqX5Xld7T1b0kZIBZ50JHxPqlfvZgBHffEc2k9ORw"
+  },
+  {
+    name: "KASUAR/42Z",
+    category: "",
+    image: "https://lh3.googleusercontent.com/_IaE7XSjLqUZozfQSo6Em9kzbi2eSKIHDjH0rYy5Q8Ump4b9AKviAIg4mTmvjhEL2v_vhrhd6eZfz-bktY13iOhxEUd04kdAZuROc55TO_M"
+  },
+  {
+    name: "RC-2000 SPRING CHICKEN",
+    category: "",
+    image: "https://lh3.googleusercontent.com/mPOJlwRtFNpdwplfbBJBw1thdrj6y0nJWFULIOhoThwUD22cL3DEWHEvor69MYqoNO8UE_13NG1U1x28IAxzdxk26pz8NKMmob80xQ2I3rngcQ"
+  },
+  {
+    name: "VP-424",
+    category: "",
+    image: "https://lh3.googleusercontent.com/oludhhq8LCnGq8R9DXsvlBuKcvomTVKkzlJzyiCcJmqK6lz80LsKjNU31z0fYNsMck86ItrAirqAvbuKfrhFokb6HHgS_Z_Akq3hP4u9CX8D"
+  },
+  {
+    name: "LG-022T BORNEMISSZA",
+    category: "",
+    image: "https://lh3.googleusercontent.com/krKK_vwRtzW-JZXSBiAKf0TYDiCqANO6OjjDnU19k8yGZs2Pj8Bn6kAV3vXQFd6rDLP6YCWbYpcgbgcufFkQmOtkIpL2X-SVIpjtHveGxsUc"
+  },
+  {
+    name: "EL-TL-11 FORTALEZA",
+    category: "",
+    image: "https://lh3.googleusercontent.com/MzS1ot9p_FKX86V3tmxaBOymzjPzZefGmy0pbFOySelXath0GY-6Sox-dgKDwYIkZH7zH5GgkvxRX0M3mHql4A-LvYtfD8WNcMdU4ZhJfKtt"
+  },
+  {
+    name: "2C-3000 WRECKER",
+    category: "",
+    image: "https://lh3.googleusercontent.com/ekIFuRdwvXAu9-Zpys8nX_oPEAs82QkdONOR7tMudGVBz5c5ty2cYuT1yhJcVmgWp5Mzd7PmSOlAB-D0dCYdJEKLKCz37XQV5aqQMiuFwvXm"
+  },
+  {
+    name: "IA-C01L:EPHEMERA",
+    category: "",
+    image: "https://lh3.googleusercontent.com/UDvbkFyMbUnpzv7ICIzclffI1usK7RVF9q5S0T8S9yZxNphaAhftwMZjjp_0QEmiHYninPgCtQm5t1YaLERhcq8T0W6uTDdi99ZuIQIFNgh43g"
+  },
+  {
+    name: "06-041 MIND ALPHA",
+    category: "",
+    image: "https://lh3.googleusercontent.com/54TOB-rFSaz92c_1wILykZ2iabgWOTSD2Csz5oB_PuaSJ-lNrvVBD21TTUDPivWZoAhMIb51eM58J-uM3uQrpMSKi9jroYCskTQDTAhhUUM"
+  },
+  {
+    name: "AL-J-121/RC JAILBREAK",
+    category: "",
+    image: "https://lh3.googleusercontent.com/ko8CtwQGu29rGH-PGFbNkcvoFRXksdYMQt7ugZvlewjMX9NckZSf8wsfS1Ej6tBQbt_g2pWTretXJlJndjLrbGDpeDMt8MyBS7NYVD_QTPYg"
+  },
+  {
+    name: "LG-012 MELANDER C3",
+    category: "",
+    image: "https://lh3.googleusercontent.com/Aa4hGxEMoUnLUdhPIdUHnFbGnVQyU_-aWoJbXKQEMJxcn6tnZhdzeLNAOkToR7xi90zdStoWOzF1PWZWFj0_n1T5nci0zVNQ4pbg8WcGgWR5TQ"
+  },
+  {
+    name: "VE-42A",
+    category: "",
+    image: "https://lh3.googleusercontent.com/IjvMmyPvhcTv1_vaK7NQOObSIbkFemARCcGZ3QEMxcQ6-HXu6kwFxlBVRBt8uhy6f5GjhpX2FaM4lEuzqKtAxPC9jjRzKuGWJl6dJsm_IJ37ZQ"
+  },
+  {
+    name: "2S-5000 DESSERT",
+    category: "",
+    image: "https://lh3.googleusercontent.com/DgQZ5Ov6M9_CtXGVFhL5Si5t91mIKFwRc0GpiQPajY-11fjsJsLz79Hf0LmWs9XWijM0UdBd3rQqfcIaluIBZTGj_nQKypnjY9pAVXLvHhs"
+  },
+  {
+    name: "EL-PL-00 ALBA",
+    category: "",
+    image: "https://lh3.googleusercontent.com/etmPD984IbXeMSMjnKK_Vp4XgQB-Fsv7uePihyxKtQcmTQQreQD5uXysIyClkLJ_RNle-hnpM51WdnHOx0FTCTjDKmtMzxI4MTuqr3e4yZmA"
+  },
+  {
+    name: "IB-C03L:HAL 826",
+    category: "",
+    image: "https://lh3.googleusercontent.com/obeHEGrOUhCG3pwJl5Yo22ZAmq6DAHoEh3DpiqDY5C6szmCsbncsDU-8BRAyUBgHS1C3NiQ1rEWxhNrLvymRj8iEzA7eRnDe6kCID4fe11w"
+  },
+  {
+    name: "06-042 MIND BETA",
+    category: "",
+    image: "https://lh3.googleusercontent.com/sUZWagTeSlH71X3HGW9MbqQf1BcSKEGwCskTauU3gu84rkj6aRdaW7kVC_4Tp2SO2sYiXOnraEcN0XMCLnT4qPML10QBWzfITOiJxaeCQjiU"
+  },
+  {
+    name: "LG-033M VERRILL",
+    category: "",
+    image: "https://lh3.googleusercontent.com/8gJvZ5Z8m5aLTLgBAarvlvkGRhfgU_RPKCovm_lGqXtoh09N57Cc9tZhhxspJxjwbe3AQkiiIJWanW5tdVbFID1uHKMrcBLbin-sanLUaJedWw"
+  },
+  {
+    name: "VE-42B",
+    category: "",
+    image: "https://lh3.googleusercontent.com/s5d2ce6FY3RSe64VdXVG4-yTa0Z-fLosmL4RyvC04orncmstXQ3hiLHZ4X6l7OePLe5dC8shZXQ4GXqLGsYZiapjRYEC0YPBxxE8YXTmL6sC"
+  },
 ];
 
 const BoosterData: PartsType[] = [
