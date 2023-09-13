@@ -22,7 +22,13 @@ export const PartsHeader = () => {
   )
 };
 
-export const PartsElement: React.FC<{ index: number; random: number }> = ({ index, random }) => {
+export const PartsTable = ({
+  index,
+  random,
+}: {
+  index: number;
+  random: number;
+  }) => {
   const data:PartsType  = PartsDatas[index][random];
 
   return (
@@ -32,18 +38,4 @@ export const PartsElement: React.FC<{ index: number; random: number }> = ({ inde
       <Td><Image src={data.image} width={300} height={150} alt={data.name} /></Td>
     </Tr>
   );
-};
-
-export const PartsTable = ({
-  index,
-  random,
-}: {
-  index: number;
-  random: number;
-  }) => {
-  return (
-    <Tbody>
-      <PartsElement index={index} random={random} />
-    </Tbody>
-  )
 }

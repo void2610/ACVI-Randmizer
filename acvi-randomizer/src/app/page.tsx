@@ -13,6 +13,7 @@ import {
 } from "@chakra-ui/react";
 
 import { PartsTable, PartsHeader } from "@/components/Parts";
+import { PartsPositions } from "@/data/PartsData";
 
 export default function Home() {
   const buttonHandler = () => {
@@ -28,11 +29,9 @@ export default function Home() {
             <PartsHeader />
           </Thead>
           <Tbody>
-            <PartsTable index={0} random={0} />
-            <PartsTable index={0} random={1} />
-            <PartsTable index={0} random={2} />
-            <PartsTable index={0} random={3} />
-            <PartsTable index={0} random={4} />
+            {PartsPositions.map((e, index) => {
+              return(<PartsTable index={index} random={0} />);
+            })}
           </Tbody>
         </Table>
       </TableContainer>

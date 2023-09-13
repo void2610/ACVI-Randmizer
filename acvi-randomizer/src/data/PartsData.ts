@@ -25,6 +25,35 @@ const HeadData: PartsType[] = [
   {name: "20-082 MIND BETA", category: "", image: "https://lh3.googleusercontent.com/Jsj318sXfy_T4h4cBPp5lSaiBdjJMQi2NvnsbuvKQKo1NFLUkUEeJ3DCwE3zovO2WOAPQgT3Bq0jlR1VzcGSpZtTC3LVHeNyh1O-AJwxWU0=rw" },
 ];
 
+const CoreData: PartsType[] = [
+  { name: "", category: "", image: "" },
+];
+
+const ArmsData: PartsType[] = [
+  { name: "", category: "", image: "" },
+];
+
+const LegsData: PartsType[] = [
+  { name: "", category: "", image: "" },
+];
+
+const FCSData: PartsType[] = [
+  { name: "", category: "", image: "" },
+];
+
+const BoosterData: PartsType[] = [
+  { name: "", category: "", image: "" },
+];
+
+
+const GeneratorData: PartsType[] = [
+  { name: "", category: "", image: "" },
+];
+
+const CoreExpantionData: PartsType[] = [
+  { name: "", category: "", image: "" },
+];
+
 export const PartsPositions = [
   "Head",
   "Core",
@@ -37,5 +66,12 @@ export const PartsPositions = [
 ]
 
 export const PartsDatas: PartsType[][] = [
-  HeadData
+  HeadData,
+  CoreData,
+  ArmsData,
+  LegsData,
+  FCSData,
+  BoosterData,
+  GeneratorData,
+  CoreExpantionData,
 ]
