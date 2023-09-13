@@ -1,6 +1,6 @@
 import { PartsType } from "../types/Parts";
 
-export const HeadData: PartsType[] = [
+const HeadData: PartsType[] = [
   { name: "HD-011 MELANDER", category: "", image: "https://lh3.googleusercontent.com/qBtFFpHHsEq9jNRIK3kZyViovMJg-qtN69cmmgKvXRtxtT_8bhLxeytv5lyAU1rZ6T8w8dJ12-nP_kh3vgDb8DAIP5VxPnheVQA1eexcHOoN=rw" },
   { name: "HC-2000 FINDER EYE", category: "", image: "https://lh3.googleusercontent.com/PSFalqRASa_Ob_r_l29RGzRFIY9DWW0eDfxAZh5Obwt_LxThePiLvAv3apCnHOi1r8a4wR657xrVHHtVh8nSeQMF2rN9CLCZRx-vLIfvR2TVcw=rw" },
   { name: "AH-J-124 BASHO", category: "", image: "https://lh3.googleusercontent.com/CqH5yKbLKvguD3uZ5QAxgCHqlfuJR5BzgeaVeAbx3qnE-kZ7eKR3mjTOOxv7rXaNKWJXhDZu-7Hsg9B0ofajEvFR1gbSq8706OnGWGRWpds=rw" },
@@ -24,3 +24,18 @@ export const HeadData: PartsType[] = [
   { name: "20-081 MIND ALPHA", category: "", image: "https://lh3.googleusercontent.com/ak4oa3xu0Pil_BSqLqlcOzfHVs9wB1IP4GtX6uT85hzboi158k2qWojf2mBDAkRUJFiOhO0Bl7brZyXccX9bTiywPG5W8H2vvR0wHP3uWxMjZQ=rw" },
   {name: "20-082 MIND BETA", category: "", image: "https://lh3.googleusercontent.com/Jsj318sXfy_T4h4cBPp5lSaiBdjJMQi2NvnsbuvKQKo1NFLUkUEeJ3DCwE3zovO2WOAPQgT3Bq0jlR1VzcGSpZtTC3LVHeNyh1O-AJwxWU0=rw" },
 ];
+
+export const PartsPositions = [
+  "Head",
+  "Core",
+  "Arms",
+  "Legs",
+  "FCS",
+  "Booster",
+  "Generator",
+  "Core Expantion"
+]
+
+export const PartsDatas: PartsType[][] = [
+  HeadData
+]

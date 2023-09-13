@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import {
   Table,
   Thead,
@@ -6,33 +7,43 @@ import {
   Td,
   TableContainer,
   Tbody,
-  Center,
-  Textarea,
-  Button,
 } from "@chakra-ui/react";
 
-export const PartsTable = ({ }) => {
+import { PartsDatas, PartsPositions } from "@/data/PartsData";
+import { PartsType } from "@/types/Parts";
+
+export const PartsHeader = () => {
   return (
-    <TableContainer overflowX="auto" maxW="100%">
-      <Table w="calc(100% + 400px)" overflow="scroll">
-        <Thead>
-          <Tr>
-            <Th>Part</Th>
-            <Th>Part Name</Th>
-            <Th>Part Type</Th>
-            <Th>Part Description</Th>
-            <Th>Part Image</Th>
-          </Tr>
-        </Thead>
-        <Tbody>
-          <Tr>
-            <Td>Part Name</Td>
-            <Td>Part Type</Td>
-            <Td>Part Description</Td>
-            <Td>Part Image</Td>
-          </Tr>
-        </Tbody>
-      </Table>
-    </TableContainer>
+      <Tr>
+        <Th>部位</Th>
+        <Th>パーツ名</Th>
+        <Th>画像</Th>
+      </Tr>
+  )
+};
+
+export const PartsElement: React.FC<{ index: number; random: number }> = ({ index, random }) => {
+  const data:PartsType  = PartsDatas[index][random];
+
+  return (
+    <Tr>
+      <Td style={{ padding: '8px',textAlign: 'center' }}>{PartsPositions[index]}</Td>
+      <Td style={{ padding: '8px',textAlign: 'center' }}>{data.name}</Td>
+      <Td><Image src={data.image} width={300} height={150} alt={data.name} /></Td>
+    </Tr>
   );
 };
+
+export const PartsTable = ({
+  index,
+  random,
+}: {
+  index: number;
+  random: number;
+  }) => {
+  return (
+    <Tbody>
+      <PartsElement index={index} random={random} />
+    </Tbody>
+  )
+}
