@@ -1,19 +1,19 @@
 import { PartsType } from "../types/Parts";
 
 const RArmWeponData: PartsType[] = [
-  {name: "", category: "", image: ""},
+  {name: "RF-024 TURNER", category: "", image: "https://lh3.googleusercontent.com/5yu5Dmnzhip4byQ1GrSAAcn7coMq9a5yqXhVtOAccDcIZHts8NP-gZkAxRtPFTdysoWQhelDUCbk__40LtxZRCLy8Aetz4zoZgb2B5MhpzdQ=rw"},
 ];
 
 const LArmWeponData: PartsType[] = [
-  {name: "", category: "", image: ""},
+  {name: "PB-033M ASHMEAD", category: "", image: "https://lh3.googleusercontent.com/pad84FAjRqpijOKn1nKoX3iJCs0k6fuqU384nGbn9VDo1VbFUzdCONcRsHS_OqJGSjfUJMuYMa95SdQqKVY4wyKaRdWpV508X4hvGuopUc0X=rw"},
 ];
 
 const RBackWeponData: PartsType[] = [
-  {name: "", category: "", image: ""},
+  {name: "SONGBIRDS", category: "", image: "https://lh3.googleusercontent.com/eD7g6JEWB8wR3xfSuKlBkNhyxZ2SlLTbhvH9Coir2B92hsZfGChEAuHjVNBLqgadEvXDyE5LAYghY29LrhdFrjXdUkP1Tmb1sH7G8qbqj9_HfQ=rw"},
 ];
 
 const LBackWeponData: PartsType[] = [
-  {name: "", category: "", image: ""},
+  {name: "VP-61PS", category: "", image: "https://lh3.googleusercontent.com/tHCFlMYsLP0pIK6zusAw2gEFrjVC3vnEo5cb0cG6x3Ohn2J-t6i_KbG8kJhuEkSuLXmLqQQ4QhMCTUm4FYD7MIPQurr29S_PRQloJI6y8qIp=rw"},
 ];
 
 const HeadData: PartsType[] = [
