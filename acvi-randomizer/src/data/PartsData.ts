@@ -26,32 +26,31 @@ const HeadData: PartsType[] = [
 ];
 
 const CoreData: PartsType[] = [
-  { name: "", category: "", image: "" },
+  { name: "CC-2000 ORBITER", category: "", image: "https://lh3.googleusercontent.com/5jpTfgoM5rCEvV7rVCz-8B-3fAjqih9irTjxgT1wi_Fz-0Mf5K-kPP4Fi9lviZ95DKPde-w_Hhgoai0axLNgeCsI0ZtWz5Vm6uOizrA0ViM=rw" },
 ];
 
 const ArmsData: PartsType[] = [
-  { name: "", category: "", image: "" },
+  { name: "AR-011 MELANDER", category: "", image: "https://lh3.googleusercontent.com/PCbKFgUoQw1xYv_Bfvc3dvVbvGaVjHY3PM60ysnrG362NiPDZdfZ7suFXjWncO49zMBbkg7pyCAKqmLAg3poOztyH0rUAlvlCKAdTIe3nxRF6w=rw" },
 ];
 
 const LegsData: PartsType[] = [
-  { name: "", category: "", image: "" },
-];
-
-const FCSData: PartsType[] = [
-  { name: "", category: "", image: "" },
+  { name: "2C-2000 CRAWLER", category: "", image: "https://lh3.googleusercontent.com/gQQcptp2hVlRg2wpMsEAtDSXsQfV0y76Ep8gsQ8alG6Xwr7ErIRjb41eGDF8vM8ZPkr8Jfe_wXT7MIzq8ijACqAFTL-qpfhHsr1s-QIIYN4=rw" },
 ];
 
 const BoosterData: PartsType[] = [
-  { name: "", category: "", image: "" },
+  { name: "BST-G1/P10", category: "", image: "https://lh3.googleusercontent.com/ltuJ7EbpJ9lbmjXjS3hQutPr9xNJ9yUy0VjAstOuiQPtFRp6AZ_uhiALEk6oRcWvseaO782Mgt37i0Jyy7lPr2o0kCHeh64CDpwvrZFxnGmB=rw" },
 ];
 
+const FCSData: PartsType[] = [
+  { name: "FCS-G1/PO1", category: "", image: "https://lh3.googleusercontent.com/tiMbZFzgEPKM_HjHoSoza4Ia9hU2az6oA6PJ3SxUXsD018oWl2_ARmoLhPcu27g5nOmRrPReNb6atZ_f4pVzly7MraI5f4FlbGJe98JUNUs=rw" },
+];
 
 const GeneratorData: PartsType[] = [
-  { name: "", category: "", image: "" },
+  { name: "AG-J-098 JOSO", category: "", image: "https://lh3.googleusercontent.com/qAvl1YDnBmeTcuvnuAGXPyPTM7Z_vM3hn5KqeLOQ0k9LNzrR_uDTS3mum1LFDH6i1U4rtbO3sAUJ0lwUYamCC_SzS2HlbDIKO8f79j_W8Xk=rw" },
 ];
 
 const CoreExpantionData: PartsType[] = [
-  { name: "", category: "", image: "" },
+  { name: "ASSAULT ARMOR", category: "", image: "https://lh3.googleusercontent.com/nstBZZomvv_TSrbntNmXoMl0P-9mi4ZV_u67oi47Sg5-FKK9-EYaSvTFzni5GCmyvMmiOJ90t1gUht4BXbKZAQbJwTpLnE_-iGUuo-oSgI6J=rw" },
 ];
 
 export const PartsPositions = [
@@ -59,8 +58,8 @@ export const PartsPositions = [
   "Core",
   "Arms",
   "Legs",
-  "FCS",
   "Booster",
+  "FCS",
   "Generator",
   "Core Expantion"
 ]
@@ -70,8 +69,8 @@ export const PartsDatas: PartsType[][] = [
   CoreData,
   ArmsData,
   LegsData,
-  FCSData,
   BoosterData,
+  FCSData,
   GeneratorData,
   CoreExpantionData,
 ]

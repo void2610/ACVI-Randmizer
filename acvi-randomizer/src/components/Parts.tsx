@@ -1,12 +1,9 @@
+"use client";
 import Image from 'next/image';
 import {
-  Table,
-  Thead,
   Tr,
   Th,
   Td,
-  TableContainer,
-  Tbody,
 } from "@chakra-ui/react";
 
 import { PartsDatas, PartsPositions } from "@/data/PartsData";
@@ -15,9 +12,9 @@ import { PartsType } from "@/types/Parts";
 export const PartsHeader = () => {
   return (
       <Tr>
-        <Th>部位</Th>
-        <Th>パーツ名</Th>
-        <Th>画像</Th>
+        <Th>Category</Th>
+        <Th>Name</Th>
+        <Th>Image</Th>
       </Tr>
   )
 };
@@ -32,10 +29,10 @@ export const PartsTable = ({
   const data:PartsType  = PartsDatas[index][random];
 
   return (
-    <Tr>
-      <Td style={{ padding: '8px',textAlign: 'center' }}>{PartsPositions[index]}</Td>
-      <Td style={{ padding: '8px',textAlign: 'center' }}>{data.name}</Td>
-      <Td><Image src={data.image} width={300} height={150} alt={data.name} /></Td>
+    <Tr suppressHydrationWarning>
+      <Td style={{ padding: '8px',textAlign: 'center' }} suppressHydrationWarning>{PartsPositions[index]}</Td>
+      <Td style={{ padding: '8px',textAlign: 'center' }} suppressHydrationWarning>{data.name}</Td>
+      <Td suppressHydrationWarning><Image src={data.image} width={300} height={150} alt={data.name} suppressHydrationWarning/></Td>
     </Tr>
   );
 }
