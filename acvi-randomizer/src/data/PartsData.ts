@@ -61,7 +61,96 @@ const CoreData: PartsType[] = [
 ];
 
 const ArmsData: PartsType[] = [
-  { name: "AR-011 MELANDER", category: "", image: "https://lh3.googleusercontent.com/PCbKFgUoQw1xYv_Bfvc3dvVbvGaVjHY3PM60ysnrG362NiPDZdfZ7suFXjWncO49zMBbkg7pyCAKqmLAg3poOztyH0rUAlvlCKAdTIe3nxRF6w=rw" },
+  {
+    name: "AR-011 MELANDER",
+    category: "",
+    image: "https://lh3.googleusercontent.com/PCbKFgUoQw1xYv_Bfvc3dvVbvGaVjHY3PM60ysnrG362NiPDZdfZ7suFXjWncO49zMBbkg7pyCAKqmLAg3poOztyH0rUAlvlCKAdTIe3nxRF6w=rw"
+  },
+  {
+    name: "AC-2000 TOOL ARM",
+    category: "",
+    image: "https://lh3.googleusercontent.com/zr2mTX07eOCldL34XeiOmhkQROGaJXWJLoRpfZtCzQakfK1imfcjesZ48yBNccuDoXojQtbh9WehllXIMjsat44LgWfZ6_bstgoSmNrOtVEB=rw"
+  },
+  {
+    name: "AA-J-123 BASHO",
+    category: "",
+    image: "https://lh3.googleusercontent.com/6lKNcyWrHX4MVXgR--mXf_P14w-dxNx0K8Z9vEuUV6FwGQ0xX-cyXcHTrFTaSA24q07v4-Fx3SM88DgUQzqUllLE6U_8OKhucW1Cact9jEAYBA=rw"
+  },
+  {
+    name: "DF-AR-08 TIAN-QIANG",
+    category: "",
+    image: "https://lh3.googleusercontent.com/hRPzs6I2U-qL1QViToJ-HqTRib2hB3YgQzdy6M1O5rtaKDzY8pQ-HDZYkwqnn_tAhJb9Ovmwa5kb8mVbrJzGIS5LHtY1-laPaeDUgi-kotk=rw"
+  },
+  {
+    name: "DF-AR-09 TIAN-LAO",
+    category: "",
+    image: "https://lh3.googleusercontent.com/xRemllBd3wp9gIljh8OmehmCUX_djxN_pLN5tlx0eoW6ZzsnMImbDKTvo8kDGzTows3fswnv_0M3LBie8gvpqqTSD7SaQTOCBAIWUR6GYGpV=rw"
+  },
+  {
+    name: "VP-46S",
+    category: "",
+    image: "https://lh3.googleusercontent.com/xUEg__67KVxco_0VsyLs_Y0quxaOk5C2lN_ouxmL9LkcR0dh5mRU5KAqoBHO_ID6QBZ_WfFs1mn6e90c_GPrbHxY-FePb-4K9a6aQLYUCTUC=rw"
+  },
+  {
+    name: "NACHTREIHER/46E",
+    category: "",
+    image: "https://lh3.googleusercontent.com/FNoUJTf6sNrVD8pHFZg6VJzB0OyoaBE5eMjWvPtBZX4xX6UHSpnpXz0xxFJGMyAzF1d82-0qUHVX0aFqpKXsv_D8EIrygnDgga5bCvNwUi_l=rw"
+  },
+  {
+    name: "EL-TA-10 FIRMEZA",
+    category: "",
+    image: "https://lh3.googleusercontent.com/tBe_RHYDb3nVB7tlAtIs3ZSOQyrlzv_8w1QikwHUrHZmL_SHccInsnMSf0MKyIhM6WTYm3GBs6msw_fEYEJ3mO5CB76i4iDYeZV9hFm-Xlbb=rw"
+  },
+  {
+    name: "04-101 MIND ALPHA",
+    category: "",
+    image: "https://lh3.googleusercontent.com/eWpYxICc3ylWJU6v4OllWW_cCrp26v1PtaMY6_vzoecWhRZXt3xU3oS0iSzlh4831y9tCKwa3WMVbCUrvIE19yhNS9wpUnknZEkYAXXa40U=rw"
+  },
+  {
+    name: "AC-3000 WRECKER",
+    category: "",
+    image: "https://lh3.googleusercontent.com/0k4QhE7-YPz0dcKOgUbu9Xk0baKMtYon64ivwVEnqEHsDC-CYwZQHOaP-xY36TYiU84eJgJ2ObqwInf2kD79HtzFZXIAS6GQbh7sISOFClhS=rw"
+  },
+  {
+    name: "IA-C01A:EPHEMERA",
+    category: "",
+    image: "https://lh3.googleusercontent.com/wpsg4jU9UnVtm_t5MzBS7-QYITAlxehu05qd-8pYKNslsShzLkW8Gur34Mh0CA5LyicF7sRjnnwI6ZSoxm_RtxtKHKHDDm2eeU7L00oqZZ6D=rw"
+  },
+  {
+    name: "AA-J-123/RC JAILBREAK",
+    category: "",
+    image: "https://lh3.googleusercontent.com/CY5xoJ0NdkHSblRpcJunoLxM_Yp3nHG9gLbVNCkPVVZ5eKl9mYN5aP16ZmcmB0I8ZrsKUsUxLCqFGYyaI6Tb_wcqVo2iPGLgzVY1gH19ra0N8w=rw"
+  },
+  {
+    name: "AR-012 MELANDER C3",
+    category: "",
+    image: "https://lh3.googleusercontent.com/xnPQMz4TIbEaT6a9W442mUFcIKmdvqjgv_ESHTJiPItJ52VxQMRXcVbEy1j9G8U-xW1CzbWZ6qoH3GcQzpHjftmxCVkIWG921prnMXPfXK8=rw"
+  },
+  {
+    name: "VP-46D",
+    category: "",
+    image: "https://lh3.googleusercontent.com/9W3z2_Koaw1bPOk-9axe4S19PAohTLcXpeI4eWH6PT57s5g2zxEKB2_8AuPZ96LdMRH5Y3rEhUTZBaXLzVI8zCwvKFaWiuFeftL8cCyJjmkXLQ"
+  },
+  {
+    name: "VE-46A",
+    category: "",
+    image: "https://lh3.googleusercontent.com/iXp0b5D66dSKlteeleuiQ8MR7xffsoG1qwL1a7U0l9fEu-Fdc5ajZ8uNQIJeXEWZCKhTRSazsHOokpr-kdgTFCQzx2HJLEuY6XjiHRNc8Qg"
+  },
+  {
+    name: "AS-5000 SALAD",
+    category: "",
+    image: "https://lh3.googleusercontent.com/cuCeRMCkh-5E3rZ23j47BCvZ3uRYw7IQq7iqgLQGv5vuh17BZUNtxQ-93cWE4loI-fo20GwFPsN90zVWLKdJ586EaeYxs-xSq8emLbxMVu-nQA"
+  },
+  {
+    name: "EL-PA-00 ALBA",
+    category: "",
+    image: "https://lh3.googleusercontent.com/5DQlML4k-gdkQQadXhixieW2uMao1n7-ZhS8BBk3PYETqXt5touPUXyLMNuKSzH_z2W8mgowOu0Vs1eLQHAg63Uhfj2BhGGf7qT9rhS3fFMT"
+  },
+  {
+    name: "IB-C03A:HAL 826",
+    category: "",
+    image: "https://lh3.googleusercontent.com/SwH7s4NIRfb2D6ygv-m5RkyToEgMnW6yNbCnOCpZVK5f9p8CKv2lPwqmxLqTueqAb0w_sk4ulhJaxUWfPMVipLhYShTnskNDH9OiEvfItg18bQ"
+  },
 ];
 
 const LegsData: PartsType[] = [
