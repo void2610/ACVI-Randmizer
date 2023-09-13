@@ -1,8 +1,62 @@
 import { PartsType } from "../types/Parts";
 
 const RArmWeponData: PartsType[] = [
-  {name: "RF-024 TURNER", category: "", image: "https://lh3.googleusercontent.com/5yu5Dmnzhip4byQ1GrSAAcn7coMq9a5yqXhVtOAccDcIZHts8NP-gZkAxRtPFTdysoWQhelDUCbk__40LtxZRCLy8Aetz4zoZgb2B5MhpzdQ=rw"},
+  {
+    name: "RF-024 TURNER",
+    category: "",
+    image:
+      "https://lh3.googleusercontent.com/5yu5Dmnzhip4byQ1GrSAAcn7coMq9a5yqXhVtOAccDcIZHts8NP-gZkAxRtPFTdysoWQhelDUCbk__40LtxZRCLy8Aetz4zoZgb2B5MhpzdQ=rw",
+  },
+  {
+    name: "MA-J-200 RANSETSU-RF",
+    category: "",
+    image:
+      "https://lh3.googleusercontent.com/39KJFeLK18qzRLCIuHSUYIM_mcgsVbS9AFCcwa5V_h2PLD1krfm7Tvl1aRRGDE5RjAY4Ied_ppLZJkzxOo83cD-rGRjiboonSgX2TGOn4W9kJg=rw",
+  },
+  {
+    name: "LR-036 CURTIS",
+    category: "",
+    image:
+      "https://lh3.googleusercontent.com/SsPQ8iwqOSUT0Jzrf44hKRrxGf28cTiwj3vwcmtu_1B26uT93SH0k_fDmtpR6i9aBmmicw3SUh33m8q0zL8aYHkbEisWfcfw8C7gHgEpGNIY=rw",
+  },
+  {
+    name: "RF-025 SCUDDER",
+    category: "",
+    image:
+      "https://lh3.googleusercontent.com/gmz7PkMtBuGPo8uNuDPcwrdkLzNHk4lMXyZswqBSQYeOyfS0m1ckPni2EH1ihgxIE-qf2zNyRGFlNmfEud3B1sXhqxQNy7PMY0QeA9ooUeC1=rw",
+  },
+  {
+    name: "MA-J-201 RANSETSU-AR",
+    category: "",
+    image:
+      "https://lh3.googleusercontent.com/o1gT8QWOKqfIpUVFcHW-wp71I4dr5QDpQ9hdQCC_9TR_SJ8vEVrmpbbkDwm8LMYs1JhD2-4DVHagcQypqJUFH_-2_hcEjl_zVr8-PeUPYmHG=rw",
+  },
+  {
+    name: "MG-014 LUDLOW",
+    category: "",
+    image:
+      "https://lh3.googleusercontent.com/JBR_MVq1UhCTDNOXGtDSNuwlLto4u1CrXJh4AmBH9H2TsEO1kcJ2_2ZVU78GqqoAEY3lyQtNIvvdw77A-0QsvUiUe2LWxiwyzc5cZvN67umMeg=rw",
+  },
+  {
+    name: "MA-E-210 ETSUJIN",
+    category: "",
+    image:
+      "https://lh3.googleusercontent.com/zlpjYQdYkAi-NFi0Tahd78rWj3VVzNytCi7N8XVlgsYQ2URbP5sSgjR-HjU5ajVbrwJatkEEhXM6Sw7YwSC4TF0tIHBgPyct-P73yApImX9rIw=rw",
+  },
+  {
+    name: "DF-GA-08 HU-BEN",
+    category: "",
+    image:
+      "https://lh3.googleusercontent.com/39e-DOJ4JmzRcedNCy3A1dm2uqHOzqyVFQyD6fPSeRMX_ZfqP5S2lJ7uVfFH1AkWWT__-MDRIBtifLbde02kfMXUdluklY2WtVu0uXWl-AdmMA=rw",
+  },
+  {
+    name: "SG-026 HALDEMAN",
+    category: "",
+    image:
+      "",
+  },
 ];
+
 
 const LArmWeponData: PartsType[] = [
   {name: "PB-033M ASHMEAD", category: "", image: "https://lh3.googleusercontent.com/pad84FAjRqpijOKn1nKoX3iJCs0k6fuqU384nGbn9VDo1VbFUzdCONcRsHS_OqJGSjfUJMuYMa95SdQqKVY4wyKaRdWpV508X4hvGuopUc0X=rw"},
