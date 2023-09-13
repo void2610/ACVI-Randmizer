@@ -1,6 +1,20 @@
 import { PartsType } from "../types/Parts";
 
+const RArmWeponData: PartsType[] = [
+  {name: "", category: "", image: ""},
+];
 
+const LArmWeponData: PartsType[] = [
+  {name: "", category: "", image: ""},
+];
+
+const RBackWeponData: PartsType[] = [
+  {name: "", category: "", image: ""},
+];
+
+const LBackWeponData: PartsType[] = [
+  {name: "", category: "", image: ""},
+];
 
 const HeadData: PartsType[] = [
   { name: "HD-011 MELANDER", category: "", image: "https://lh3.googleusercontent.com/qBtFFpHHsEq9jNRIK3kZyViovMJg-qtN69cmmgKvXRtxtT_8bhLxeytv5lyAU1rZ6T8w8dJ12-nP_kh3vgDb8DAIP5VxPnheVQA1eexcHOoN=rw" },
