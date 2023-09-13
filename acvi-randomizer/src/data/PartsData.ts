@@ -1,5 +1,7 @@
 import { PartsType } from "../types/Parts";
 
+
+
 const HeadData: PartsType[] = [
   { name: "HD-011 MELANDER", category: "", image: "https://lh3.googleusercontent.com/qBtFFpHHsEq9jNRIK3kZyViovMJg-qtN69cmmgKvXRtxtT_8bhLxeytv5lyAU1rZ6T8w8dJ12-nP_kh3vgDb8DAIP5VxPnheVQA1eexcHOoN=rw" },
   { name: "HC-2000 FINDER EYE", category: "", image: "https://lh3.googleusercontent.com/PSFalqRASa_Ob_r_l29RGzRFIY9DWW0eDfxAZh5Obwt_LxThePiLvAv3apCnHOi1r8a4wR657xrVHHtVh8nSeQMF2rN9CLCZRx-vLIfvR2TVcw=rw" },
@@ -38,19 +40,195 @@ const LegsData: PartsType[] = [
 ];
 
 const BoosterData: PartsType[] = [
-  { name: "BST-G1/P10", category: "", image: "https://lh3.googleusercontent.com/ltuJ7EbpJ9lbmjXjS3hQutPr9xNJ9yUy0VjAstOuiQPtFRp6AZ_uhiALEk6oRcWvseaO782Mgt37i0Jyy7lPr2o0kCHeh64CDpwvrZFxnGmB=rw" },
+  {
+    name: "BST-G1/P10",
+    category: "",
+    image: "https://lh3.googleusercontent.com/ltuJ7EbpJ9lbmjXjS3hQutPr9xNJ9yUy0VjAstOuiQPtFRp6AZ_uhiALEk6oRcWvseaO782Mgt37i0Jyy7lPr2o0kCHeh64CDpwvrZFxnGmB=rw",
+  },
+  {
+    name: "AB-J-137 KIKAKU",
+    category: "",
+    image: "https://lh3.googleusercontent.com/AH1C6WZ3aTXodohDuqT7NYWBqKLM3Z4ZJrvX5uVD1ud5PZ08jAOUU5HCrJPrVtUJrUsZSLYbYx0XeJMRGUADF3YHAHBK2NrZiML7mhw9hCN-=rw",
+  },
+  {
+    name: "BST-G2/P04",
+    category: "",
+    image: "https://lh3.googleusercontent.com/KjVlYAFN-q4SOVZC1lZAoLEpi5d6G3YY2m9zikNsL87DeUQWHe5ODDtqilwYbfxehUy2I_ZyTMcraL50YaZBCxVv4WcBQ2nWDp0VQnqg4ABN=rw",
+  },
+  {
+    name: "ALULA/21E",
+    category: "",
+    image: "https://lh3.googleusercontent.com/SzIoHdBUh7S5EZ-Pd2-EJIRufVWYldEB_Nh6CutJspUPH0ARMzVPVfY407NFpssf4hGko8wOKR0Umk__hu_dUMs8S5JlqT_Rg8_CQbQbVt5M=rw",
+  },
+  {
+    name: "FLUEGEL/21Z",
+    category: "",
+    image: "https://lh3.googleusercontent.com/1CVFUzUE7WXjVpxsq94DtsIF2FKIB5gMnsX5VXKi7ZDqBY2UBKZGKB9BYwNjDs-8YAInYmh8bhDOong-zsyaHPFeW-n7eUG_viKcqMmYVmqa=rw",
+  },
+  {
+    name: "BUERZEL/21D",
+    category: "",
+    image: "https://lh3.googleusercontent.com/g_mwxUzsg2aamuUO79GV6WvfshJ9jVUSblnDgGdKEqXPq235DoM8KDt8dhvi4hYm970z71BmFTryxrNwYPMJa5aT9EE3n73PI5HzEYy3Anaw=rw",
+  },
+  {
+    name: "BC-0400 MULE",
+    category: "",
+    image: "https://lh3.googleusercontent.com/rPNh_ZIygJJo_wjprmp_NDFk8ZARt7um4X9TxXjykgKcIZ9oux_OcfCdXe4eciH48bFqQdOL_nqQ_AcHtbSqs73ctTFaxlTkXgyAq7O7Mh2R=rw",
+  },
+  {
+    name: "BC-0600 12345",
+    category: "",
+    image: "https://lh3.googleusercontent.com/s_-Vu4UTcn1R3aI-P4vInUlg6WVz-NmiakgljrFWMDMJe1Eqe-PtrczWyuMGuP8t11IkNj4jsXYcAnITsucIn2TpGlo-58YDlLYnl7y5phM=rw",
+  },
+  {
+    name: "IA-C01B:GILLS",
+    category: "",
+    image: "https://lh3.googleusercontent.com/AlqLZ24tSi9q0ItZrwJXoYv9FGyLLtXWPc2CMNnS_I4UVByXsQL5USi3zZL-wOTx0rBxG27JNBVjQzzvXVueboM_taho5-hATpcMkvyTVe0Z=rw",
+  },
+  {
+    name: "BST-G2/P06SPD",
+    category: "",
+    image: "https://lh3.googleusercontent.com/00Y4CsKX0n1SFEiTkOpwEqsMcqL-nJ5v45cev-rKU2GpGjy4dt9RqvCbvXyMbwyaH3Du8icAzJhBaN2SX1BFYK2XwTDT2eu42k8dTOtDcISKVQ=rw",
+  },
+  {
+    name: "BC-0200 GRIDWALKER",
+    category: "",
+    image: "https://lh3.googleusercontent.com/8NzZ1wLXO03CxIHcAay97wQ5tXx8SaIEcZNw2pYWlaLVCTZgVcV2eTyXGkpFkmCVef0FlvV7beSW7dAg8lPLA5Hak-4eHmiTtPedolkfMrMa=rw",
+  },
+  {
+    name: "IB-C03B:NGI 001",
+    category: "",
+    image: "https://lh3.googleusercontent.com/8NzZ1wLXO03CxIHcAay97wQ5tXx8SaIEcZNw2pYWlaLVCTZgVcV2eTyXGkpFkmCVef0FlvV7beSW7dAg8lPLA5Hak-4eHmiTtPedolkfMrMa=rw",
+  },
 ];
 
 const FCSData: PartsType[] = [
-  { name: "FCS-G1/PO1", category: "", image: "https://lh3.googleusercontent.com/tiMbZFzgEPKM_HjHoSoza4Ia9hU2az6oA6PJ3SxUXsD018oWl2_ARmoLhPcu27g5nOmRrPReNb6atZ_f4pVzly7MraI5f4FlbGJe98JUNUs=rw" },
+  {
+    name: "FCS-G1/PO1",
+    category: "",
+    image: "https://lh3.googleusercontent.com/tiMbZFzgEPKM_HjHoSoza4Ia9hU2az6oA6PJ3SxUXsD018oWl2_ARmoLhPcu27g5nOmRrPReNb6atZ_f4pVzly7MraI5f4FlbGJe98JUNUs"
+  },
+  {
+    name: "FCS-G2/P05",
+    category: "",
+    image: "https://lh3.googleusercontent.com/3qzdLPh76C71ege8Fn0Y6CDx65M4J3t73ptJCw7IgJFoE3OEZxlr2NStZfTRUFb6PKMIvwA7SDb0faVrkd2bfAXSd-Swju6bdU0IdoDdGYYZ"
+  },
+  {
+    name: "FCS-G2/P10SLT",
+    category: "",
+    image: "https://lh3.googleusercontent.com/-eUmmV7aKKhUV-TAjnZGJLu-9UoQN3vU6WmMSqAuheX2NJPod6SXvI1iOq74WcIlUF9IK8DWI0wyE_Ectl_yuINqrXA6myxP8xs3bYqTICM"
+  },
+  {
+    name: "FCS-G2/P12SML",
+    category: "",
+    image: "https://lh3.googleusercontent.com/XssGTtgaFMPHI5TD18p1h1Ru9Iqrf3p1gGZlSNgZ8MhTX1j9daVzMUbkUP3_28s_rqZySBpXVp1Ey2NNCXCcJtavs35C__ICI1ajOA_F7OYRug"
+  },
+  {
+    name: "FC-006 ABBOT",
+    category: "",
+    image: "https://lh3.googleusercontent.com/6IYw_pPNjtcpbq82UoVP3XJZO6Nx3CXFVSaJJnlv9ouksgiizv7ezJBH14r-87i_riS8143l7CClEXd_h3wseJLsPVMJm5O-lUzl2YjO5-M"
+  },
+  {
+    name: "FC-008 TALBOT",
+    category: "",
+    image: "https://lh3.googleusercontent.com/QroGwJuMwxEi0T_d8A-EcTGILuDPOCnPgX87jj9_80igYiYUFDqfDGbdgzb_yznYp0WENhJDD3FAEnNhgNoTv-6wZ-81hQUXAqkKEv6H1wM"
+  },
+  {
+    name: "IA-C01F:OCELLUS",
+    category: "",
+    image: "https://lh3.googleusercontent.com/3s3DyRuLDD2G_1AwDZSlAjrxaXDTeFGmyaHtU8NgOOgddmK2lJCBbxwvQuxFBPQOJIBVTRFi6jookS1aaVGoKjixMBLazqE-K4RoFNYswbDJgA"
+  },
+  {
+    name: "VE-21A",
+    category: "",
+    image: "https://lh3.googleusercontent.com/HwFn-GDyEFNHZbUv6L4mLW8LiT5IJ33eTKga-L6Ap6Ltd5DMT59NPwFyg9Y5cDcSB6d3t4t9kY-eTcaQQz-zwlKZitOurZzhSIdTAnFfhV19Tw"
+  },
+  {
+    name: "VE-21B",
+    category: "",
+    image: "https://lh3.googleusercontent.com/_e05dITCcf-kUdlFHITCuxPHeITvIgqAEwk63_rtwRMUC-N6Js6SWhXitHG_JsP-Vc4AlqwcT_w4OTCL16dNLPfCzQsW4tq3F1bFUI9jwmsR"
+  },
+  {
+    name: "IB-C03F:WLT 001",
+    category: "",
+    image: "https://lh3.googleusercontent.com/AC64Yw2CvkVA-980JoZqH463iP8aHZMYuWa5dIFzWns55SU08HJ_E9JJsknoYqgUV4RKVzHAwXh8Qu9e9BzFexxO0XJGP0fulSwpA2g6pmUToA"
+  }
 ];
 
 const GeneratorData: PartsType[] = [
-  { name: "AG-J-098 JOSO", category: "", image: "https://lh3.googleusercontent.com/qAvl1YDnBmeTcuvnuAGXPyPTM7Z_vM3hn5KqeLOQ0k9LNzrR_uDTS3mum1LFDH6i1U4rtbO3sAUJ0lwUYamCC_SzS2HlbDIKO8f79j_W8Xk=rw" },
+  {
+    name: "AG-J-098 JOSO",
+    category: "",
+    image: "https://lh3.googleusercontent.com/qAvl1YDnBmeTcuvnuAGXPyPTM7Z_vM3hn5KqeLOQ0k9LNzrR_uDTS3mum1LFDH6i1U4rtbO3sAUJ0lwUYamCC_SzS2HlbDIKO8f79j_W8Xk=rw",
+  },
+  {
+    name: "AG-E-013 YABA",
+    category: "",
+    image: "https://lh3.googleusercontent.com/oDxcMKmnE471MqLdAOA-cQwjoRMMGYvzqzA9DZyuAOtbERIZtKm8yigZPVy4JsIXeohT-J7bAzj-PKuXPQ0VOTHdUpPw_bc0FVXF-SJ_zwY=rw",
+  },
+  {
+    name: "DF-GN-02 LING-TAI",
+    category: "",
+    image: "https://lh3.googleusercontent.com/qan3u6GiculLsk3JfQUa0TrLHIB-h5oJvtG4O0bvQDDArQh1jAmjHJ9s5vCKJmPkK5Xso1iLqxiGW3bsbKG53kEnMrWtoLEeVGTZ6Bi3x8vn=rw",
+  },
+  {
+    name: "DF-GN-06 MING-TANG",
+    category: "",
+    image: "https://lh3.googleusercontent.com/9nF3LDJ1Od425pYuSykdZ-rwSxVPXXjgBuauNvEI3kpsUIKqQiKleKKDXhg41PwJgY6X6fsITcv_YpX6pEKCH57WXJI6jtEVlSmfc3bY-Nc2",
+  },
+  {
+    name: "VP-20S",
+    category: "",
+    image: "https://lh3.googleusercontent.com/iqJjV5TMWp5wegA3eMt0twFzRkEC15enXZIgB72bHcLG9hxqksxQKDxtKM_UVcH_xguCdBNc8kuHAx1VbA4Wa7lQFo8mi864j9KQRsnbrrhs",
+  },
+  {
+    name: "VP-20C",
+    category: "",
+    image: "https://lh3.googleusercontent.com/HhVQOBR4or_sgzgHKGO2f4H0_82GUbdKM8nt343koBqkPiO7I8hcBf4H3tgD8gmhsoXyt3TpzJ1g3QgRI2QsWl463hQjjC-q6wbF6jdGShcl",
+  },
+  {
+    name: "VP-20D",
+    category: "",
+    image: "https://lh3.googleusercontent.com/ljvjpu8hjKN2RC_OrzzQ08ZFV5PX0KjwsOEK9hwmeXaxfyAW_ToiJJUdR_-16cf3_FDuiti0bhgITirdFN2FYpfeoTYBGyJNA-LI8Qvq4nGZWw",
+  },
+  {
+    name: "IA-C01G:AORTA",
+    category: "",
+    image: "https://lh3.googleusercontent.com/cRJaDu9oQ4ngz44olCnHjdHl47iIEJv4XNzVQttPJghwFexXV5U-Bhk82Weipypflp2NsQkb2BrOrrDujqZ9V2JiOnuMCP9WDUnldPbJOvA",
+  },
+  {
+    name: "AG-T-005 HOKUSHI",
+    category: "",
+    image: "https://lh3.googleusercontent.com/IUeFrq_9bE27AtqTkg0YVifbsowE2OacImmYPpZDEkXMkLj89T6Xye5VJd1AVLNnuv5aVaG4Kj1x6irJRf251N2ziurzT1u8jkXDHU2Yw9kd",
+  },
+  {
+    name: "DF-GN-08 SAN-TAI",
+    category: "",
+    image: "https://lh3.googleusercontent.com/WKy2LOg5Q-tGx4lELzbwScYcYMWteOpRCbH8tjqjoW-WC_jFq5KfztYPveXGwtO0FjOLNoxVug284WTV-Ivktvfhjb7U0_2l01wC-vn9geM",
+  },
+  {
+    name: "VE-20A",
+    category: "",
+    image: "https://lh3.googleusercontent.com/TYIEN9wX6O7610IGK0VyueXaiCMWCqe53RsDSisAKCdm543t6vLII504c-pGwFujY_tXfFcAdmXQQrME0elyjKZjuWJjAlttLJmM30Ns4J6eZg",
+  },
+  {
+    name: "VE-20B",
+    category: "",
+    image: "https://lh3.googleusercontent.com/EJV9EwC4gH3RoZ7LUnLBBiEn4Qe9ymo-yxWuO0v4DTGhvB0v6ayi3wG-rC70hhICoAyJJwKK1gfwLxdxWw0Ka-ykB3odwSPiL7LUurgYoCDFmw",
+  },
+  {
+    name: "IB-C03G:NGI 000",
+    category: "",
+    image: "https://lh3.googleusercontent.com/Zbahmc3TV8Xf1VicQE9GGYK524g786bGUkMfA2M7Sodv9933AslXK7flrHz1HAaA8hijvW9fixY71kWVVDsU5WvLk2begeWsEjfdIe1px8I7",
+  },
 ];
+
 
 const CoreExpantionData: PartsType[] = [
   { name: "ASSAULT ARMOR", category: "", image: "https://lh3.googleusercontent.com/nstBZZomvv_TSrbntNmXoMl0P-9mi4ZV_u67oi47Sg5-FKK9-EYaSvTFzni5GCmyvMmiOJ90t1gUht4BXbKZAQbJwTpLnE_-iGUuo-oSgI6J=rw" },
+  { name: "PULSE ARMOR", category: "", image: "https://lh3.googleusercontent.com/XKBvL7XIAHv4NEo6a1AUo87VkET78GldmeL9jYnvNWPrf0nmdX9gxp6obDdLuyVDbLwxwi7qS09XL4MWXvSvgy9g191Ej8yjQN8Nh4mYsPM=rw" },
+  { name: "PULSE PROTECTION", category: "", image: "https://lh3.googleusercontent.com/rKSoUkHY8bsKGRc2CPzKYZEt7GJs09hkD2fUftsqOZvxNuHlLw5IzfaqCQgEJVE5-CkDGoIXZGOZeCIuAUOcSomaMESXip8ZNycVqFCUPDg=rw" },
+  { name: "TERMINALARMOR", category: "", image: "https://lh3.googleusercontent.com/tc6LJ_-_zLQ0azms7mkbtGLDj73V9eDiI5aBYWbu4xPmwENfQRzGf8smBUC2ydLFtONwh9XVW5DEyfBG0NxDv0Fc4t0r2d-24fiF1XmTJmPA=rw" },
 ];
 
 export const PartsPositions = [
@@ -74,3 +252,5 @@ export const PartsDatas: PartsType[][] = [
   GeneratorData,
   CoreExpantionData,
 ]
+
+//{ name: "", category: "", image: "" },
