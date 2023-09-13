@@ -42,7 +42,22 @@ const HeadData: PartsType[] = [
 ];
 
 const CoreData: PartsType[] = [
-  { name: "CC-2000 ORBITER", category: "", image: "https://lh3.googleusercontent.com/5jpTfgoM5rCEvV7rVCz-8B-3fAjqih9irTjxgT1wi_Fz-0Mf5K-kPP4Fi9lviZ95DKPde-w_Hhgoai0axLNgeCsI0ZtWz5Vm6uOizrA0ViM=rw" },
+  { name: "CC-2000 ORBITER", category: "", image: "https://lh3.googleusercontent.com/5jpTfgoM5rCEvV7rVCz-8B-3fAjqih9irTjxgT1wi_Fz-0Mf5K-kPP4Fi9lviZ95DKPde-w_Hhgoai0axLNgeCsI0ZtWz5Vm6uOizrA0ViM" },
+  { name: "AC-J-120 BASHO", category: "", image: "https://lh3.googleusercontent.com/T1hFeKwzvIw4pSldF6a8ufGS53E6piVsr6z7vGsttbngvqNk08Wom2SBObayXu9hfXDBUmyzMal9rtfp6eUBFWm2ZO1u3dhn0voUBuj9873G" },
+  { name: "BD-011 MELANDER", category: "", image: "https://lh3.googleusercontent.com/S3ovX8p7P1dNkHgHZcTa9jT8ROv2ax1RPi3YJgUG0-Q9xkSYTBmRWcfHaGbVCBUx2iY-IndICgzZ5YspNSNB2m2RPsAOwqk2AcSJOp-FUWk" },
+  { name: "DF-BD-08 TIAN-QIANG", category: "", image: "https://lh3.googleusercontent.com/kSQC45Fv1kZnYWIU3R6mYlREexCHFuDHo0zxBSSy-tlGA-FP_UdpfX0RElbxsUWcZBd3CNR1GZ5uOUgHYept1CjftQQb-y_1vm5zaPhx7aem" },
+  { name: "VP-40S", category: "", image: "https://lh3.googleusercontent.com/i5e_50VQdHDtEPzgCCWv66j06SYrNYGknAskhH2CD2rm_r8SRYsZBSCFJEKCwUTLHCVn61wNxAPwa2qCprbAaUbiVrB2iPsiiyQVJN4rnVRsoQ" },
+  { name: "NACHTREIHER/40E", category: "", image: "https://lh3.googleusercontent.com/I5Cc5w54JUd6Bi-FGiXL4arNC60FEFyB5myh5AIA6Yto4MY9bZnWlGIBqUsiBoZxWsEm2sHrKWYhN33UtQuOGibSXu_gvlb0m3SEwmUjgniy" },
+  { name: "EL-TC-10 FIRMEZA", category: "", image: "https://lh3.googleusercontent.com/YoFS8E9hZzfJ-Qi_yn-yYkH6RoJxzK3-TvzHEcRchTFCiUM7l93IJAxTetv1BXMZfAIFgfI9Ccw9qoad9-4mSg9GcSl_X1rx-013w63skRTaKQ" },
+  { name: "CC-3000 WRECKER", category: "", image: "https://lh3.googleusercontent.com/1mevpP-Ck4hfVMY2ho9vLeBGP7AW8LVR71A85kD4q65SfwwOzWQ5PXjVDIAibUWrCE1KpXLQQjhsXGfkh-ds-exAmIsTsPjDx0dFSdsMNG0" },
+  { name: "IA-C01C:EPHEMERA", category: "", image: "https://lh3.googleusercontent.com/-vYKk40m-_VcfzZmJ88kFzZ_30B3xq9uLaZCZ4BB4eaU79ZwNVO8dWw8E8OtNbZzW9RpLIRG9Bpc6WFxY5rGWMKmvpYSfltKFLejShK9yfYT7Q" },
+  { name: "IB-C03C:HAL 826", category: "", image: "https://lh3.googleusercontent.com/xJwRVB15OtUKZfyeEDXX8wezmflMtmFVCm5cx2xL7DCuSJkCUdYODFbpa2qHF9WlHulGfhSePWGYBZodzRiHtHEw7pnstyaCd7ySNDMETd8" },
+  { name: "CS-5000 MAIN DISH", category: "", image: "https://lh3.googleusercontent.com/q1eCrHSKdZNNSS1PDNLibMR70FurBYVgMJaM1U5rNECJRYk1trO0GfZ0X8w65PLL_-Xd7bLahulMNAHdTWxzJ59yM6zfT42JJUMVE6kwdFAG" },
+  { name: "BD-012 MELANDER C3", category: "", image: "https://lh3.googleusercontent.com/QzmiS1rd9BBWJxOcPV7JcM4cQCBSxeG18MtESOAaSdaUd9l4KQZu29y5lDt6MQy5BcnnYHVCC54WLGqYSli5bPwECvfRTRXUJG-IM1923VXl" },
+  { name: "AC-J-120/RC JAILBREAK", category: "", image: "https://lh3.googleusercontent.com/MeoWba-oCNe6q00-CjaW3dMN57BuHklj1NEtZtYy5xINEpRt_Hi0KsvRR5HphmchuY2U_ADBaLF139xR99XLLHX1eTLqgcwbJSMdbdIvM3o" },
+  { name: "07-061 MIND ALPHA", category: "", image: "https://lh3.googleusercontent.com/fHnzhBELICpALoCKIT5Glp8RnXhTQD5VZ3ux9-WbPGlPkKFViq9jwc3ctnNKAcNwAQ1AVmua1-be57kVBmqL5r2vpcvaQZsb-by7Nk9ZvhU3" },
+  { name: "VE-40A", category: "", image: "https://lh3.googleusercontent.com/aHhX3tZDeBbQN9N7cAwUB67JHOxVyhp769xFuyX_ag5-ODpij8RIAbAE_LIExMpfbvgTVUPo77BxItVs2zzNWxuoRfj9fBbKBYGvkXcH_qOu" },
+  { name: "EL-PC-00 ALBA", category: "", image: "https://lh3.googleusercontent.com/BxGb0_N7bCwiklAjhLm7guP92o6T5J7dxDuqezx2_NCOOnzecPPoKBcaukhy66x5cmSvGR6SRsHBBOr6-TbvGR_wHD_7h44BuHYV4AQ353d8" },
 ];
 
 const ArmsData: PartsType[] = [
@@ -246,6 +261,10 @@ const CoreExpantionData: PartsType[] = [
 ];
 
 export const PartsPositions = [
+  "RArm",
+  "LArm",
+  "RBack",
+  "LBack",
   "Head",
   "Core",
   "Arms",
