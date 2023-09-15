@@ -1,5 +1,6 @@
 "use client";
 import React, { useState, useCallback } from "react";
+import Head from 'next/head';
 import {
   Table,
   Thead,
@@ -38,19 +39,24 @@ export default function Home() {
   };
 
   return (
-    <main>
-      <h1>ACVI Randomizer</h1>
-      <Button size="sm" variant="ghost" onClick={buttonHandler}>
-        Randomize
-      </Button>
-      <TableContainer overflowX="auto" maxW="100%">
-        <Table w="100%">
-          <Thead position="sticky" top={0} zIndex="docked">
-            <PartsHeader />
-          </Thead>
-          <Tbody suppressHydrationWarning>{showTable()}</Tbody>
-        </Table>
-      </TableContainer>
-    </main>
+    <>
+      <Head>
+        <title>ACVI Randomizer</title>
+      </Head>
+      <main>
+        <h1>ACVI Randomizer</h1>
+        <Button size="sm" variant="ghost" onClick={buttonHandler}>
+          Randomize
+        </Button>
+        <TableContainer overflowX="auto" maxW="100%">
+          <Table w="100%">
+            <Thead position="sticky" top={0} zIndex="docked">
+              <PartsHeader />
+            </Thead>
+            <Tbody suppressHydrationWarning>{showTable()}</Tbody>
+          </Table>
+        </TableContainer>
+        </main>
+    </>
   );
 }
