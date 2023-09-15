@@ -2,6 +2,7 @@
 import React, { useState, useCallback } from "react";
 import Head from 'next/head';
 import {
+  ChakraProvider,
   Table,
   Thead,
   TableContainer,
@@ -39,15 +40,16 @@ export default function Home() {
   };
 
   return (
-    <>
+    <ChakraProvider>
       <Head>
         <title>ACVI Randomizer</title>
       </Head>
-      <main>
-        <h1>ACVI Randomizer</h1>
-        <Button size="sm" variant="ghost" onClick={buttonHandler}>
-          Randomize
-        </Button>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <h1>ACVI Randomizer</h1>
+          <Button onClick={buttonHandler} colorScheme='teal'>
+            Randomize
+          </Button>
+        </div>
         <TableContainer overflowX="auto" maxW="100%">
           <Table w="100%">
             <Thead position="sticky" top={0} zIndex="docked">
@@ -56,7 +58,6 @@ export default function Home() {
             <Tbody suppressHydrationWarning>{showTable()}</Tbody>
           </Table>
         </TableContainer>
-        </main>
-    </>
+    </ChakraProvider>
   );
 }
