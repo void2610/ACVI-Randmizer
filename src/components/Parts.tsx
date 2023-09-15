@@ -32,7 +32,7 @@ export const PartsTable = ({
     <Tr suppressHydrationWarning>
       <Td style={{ padding: '8px',textAlign: 'center' }} suppressHydrationWarning>{PartsPositions[index]}</Td>
       <Td style={{ padding: '8px',textAlign: 'center' }} suppressHydrationWarning>{data.name}</Td>
-      <Td suppressHydrationWarning><Image src={data.image} width={300} height={150} alt={data.name} suppressHydrationWarning/></Td>
+      <Td suppressHydrationWarning><img src={data.image} width={300} height={150} alt={data.name} suppressHydrationWarning/></Td>
     </Tr>
   );
 }
