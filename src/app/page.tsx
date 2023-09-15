@@ -8,6 +8,8 @@ import {
   TableContainer,
   Tbody,
   Button,
+  TableCaption,
+  Heading,
 } from "@chakra-ui/react";
 
 import { PartsTable, PartsHeader } from "@/components/Parts";
@@ -45,13 +47,14 @@ export default function Home() {
         <title>ACVI Randomizer</title>
       </Head>
         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-          <h1>ACVI Randomizer</h1>
+        <Heading size='2xl'>ACVI Randomizer</Heading>
           <Button onClick={buttonHandler} colorScheme='teal'>
             Randomize
           </Button>
         </div>
         <TableContainer overflowX="auto" maxW="100%">
-          <Table w="100%">
+        <Table w="100%" variant='simple' size='lg'>
+          <TableCaption>EN出力不足になる場合があります</TableCaption>
             <Thead position="sticky" top={0} zIndex="docked">
               <PartsHeader />
             </Thead>
