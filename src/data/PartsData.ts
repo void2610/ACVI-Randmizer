@@ -96,14 +96,28 @@ const RArmWeponData: PartsType[] = [
 
 const LArmWeponData: PartsType[] = [
   ...RArmWeponData,
-  {name: "PB-033M ASHMEAD", category: "", image: "https://lh3.googleusercontent.com/pad84FAjRqpijOKn1nKoX3iJCs0k6fuqU384nGbn9VDo1VbFUzdCONcRsHS_OqJGSjfUJMuYMa95SdQqKVY4wyKaRdWpV508X4hvGuopUc0X=rw"},
+  { name: "PB-033M ASHMEAD", category: "", image: "https://lh3.googleusercontent.com/pad84FAjRqpijOKn1nKoX3iJCs0k6fuqU384nGbn9VDo1VbFUzdCONcRsHS_OqJGSjfUJMuYMa95SdQqKVY4wyKaRdWpV508X4hvGuopUc0X=rw" },
+  { name: "VP-67EB", category: "", image: "https://lh3.googleusercontent.com/rdZEw7cHlCo1b9gMWGIjl6W6cdHL_Co422JZ5o4W7bc_Oc6guQEVVixvE6TiArtjNJ7W43hmkHDt-LWoMROcOHq7pSdAfv4_7gM6czyoc9s" },
+  { name: "Vvc-770LB", category: "", image: "https://lh3.googleusercontent.com/R6Jvid0n5NxRYvGhIpYqkkhQYhZLS8nNzb20xdEd8jqqJvZkPH-qsMAJDpKrHovdgAWbEF8IB_S6D_PIb8NZaRNSCWJi7PRpsVTn75dSblaJDg" },
+  { name: "HI-32:BU-TT/A", category: "", image: "https://lh3.googleusercontent.com/_gsp_eStWvUuL-DXpCACybB9bV4lTrEVUyKoqA-5IcIwgE0EUke1IY7_bdKm9TZCMXJr_GDvwZmrZsNOVkxI56lS_Gw2IwuCAHCUBUmQ5K2D" },
+  { name: "WB-0010 DOUBLE TROUBLE", category: "", image: "https://lh3.googleusercontent.com/s0db-AS3E5Ez_ghuAo5PwlwL-7aSTe2nagDKFH-OZ-8PrUuVJYlKZBsJQz-o_DOC8SDcn4xsI-lJyeCVmO-o1mplpZ7tt3DSbuwLIp356yA" },
+  { name: "44-143 HMMR", category: "", image: "https://lh3.googleusercontent.com/JZmvvxBE-c3dckNYvmX8JLJjDNwAoAK87mZYnXDXioEfBdYwPxup53pOO0FYHFO2oTEViqMOMWzS30bNV_j_OM6_oAr6TUQawd8jmYy3teu9Bw" },
+  { name: "VE-67LLA", category: "", image: "https://lh3.googleusercontent.com/RkFFKBE4qc4NtZSTOCK687kK46GzIp9aYMXxuKa-88o-qt1LKOIOn24BMa4t3dJHjMRi367GRAWdj7TNLc8rV0o_NuIEPQdO2S7GNKtH3DP4" },
+  { name: "DF-ET-09 TAI-YANG-SHOU", category: "", image: "https://lh3.googleusercontent.com/2IDLbqHqeKrZKCuAS4W9U3RkJEJEONJ341FGEm6qXc_mutwnKiRp7K8pytLBU66uLMXJt_6pPkNHMEy2mVOX5I9zftHadrUVMTiIY--dUHpP" },
+  { name: "VP-67LD", category: "", image: "https://lh3.googleusercontent.com/CUkngMrzYOuvO0m7pAfpCOGINbhDZELcDxkKYJLgh9kxKjQM2Cnlo3dkTFFTHDeAWPSvDIo2jcRRUyhervzKehMmU8MmTNfbHkY05KCJ9nznjA" },
+  { name: "Vvc-774LS", category: "", image: "https://lh3.googleusercontent.com/gEeDY5TY7Nh1dmkbJCHy_7_vEQTyVifThTcdZJBpD9WWOkLCtBbxuquNKFAYB98FhH6FT8Z3pWs_e3Mx0fghfAjbQ2QXU7Mjmb6xhNQfNzGf" },
+  { name: "IA-C01W2:MOONLIGHT", category: "", image: "https://lh3.googleusercontent.com/Bk8Vu4KcDNINUQ2V-UwhxF4LU77FZXSbU9lZ86XFrNqO32-FSpR3hS024lURYrwAbFqMZqfaLVK0RA9lxh0an-2AUpQw9NZvT-gYy0swxHZI" },
+  { name: "IA-C01W7:ML-REDSHIFT", category: "", image: "https://lh3.googleusercontent.com/i_ZsJgIi1PKqcpoNuWh1dTDv79_NhAh4yRr6DhtShVNgkRkK8Nny4S4eeeNV1v8nv45ss54ChKJAbR5ZeW6-1A38NOxdckB68Pv_QNev5yuw" },
+  { name: "IB-C03W2:WLT 101", category: "", image: "https://lh3.googleusercontent.com/FuE8n3wHV5VpSl2K-YpXG6LcYYtQghw1hwwFefboO-Tpw2YeynWTeyLPm6ds4IOtjpX1caBOT57MekP169TbWOmbfY1anRilzZPHzL07WVI" },
 ];
 
 const RBackWeponData: PartsType[] = [
+  ...RArmWeponData,
   {name: "SONGBIRDS", category: "", image: "https://lh3.googleusercontent.com/eD7g6JEWB8wR3xfSuKlBkNhyxZ2SlLTbhvH9Coir2B92hsZfGChEAuHjVNBLqgadEvXDyE5LAYghY29LrhdFrjXdUkP1Tmb1sH7G8qbqj9_HfQ=rw"},
 ];
 
 const LBackWeponData: PartsType[] = [
+  ...LArmWeponData,
   {name: "VP-61PS", category: "", image: "https://lh3.googleusercontent.com/tHCFlMYsLP0pIK6zusAw2gEFrjVC3vnEo5cb0cG6x3Ohn2J-t6i_KbG8kJhuEkSuLXmLqQQ4QhMCTUm4FYD7MIPQurr29S_PRQloJI6y8qIp=rw"},
 ];
 
@@ -550,7 +564,6 @@ const GeneratorData: PartsType[] = [
     image: "https://lh3.googleusercontent.com/Zbahmc3TV8Xf1VicQE9GGYK524g786bGUkMfA2M7Sodv9933AslXK7flrHz1HAaA8hijvW9fixY71kWVVDsU5WvLk2begeWsEjfdIe1px8I7",
   },
 ];
-
 
 const CoreExpantionData: PartsType[] = [
   { name: "ASSAULT ARMOR", category: "", image: "https://lh3.googleusercontent.com/nstBZZomvv_TSrbntNmXoMl0P-9mi4ZV_u67oi47Sg5-FKK9-EYaSvTFzni5GCmyvMmiOJ90t1gUht4BXbKZAQbJwTpLnE_-iGUuo-oSgI6J=rw" },
