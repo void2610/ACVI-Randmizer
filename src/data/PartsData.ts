@@ -93,9 +93,7 @@ const RArmWeponData: PartsType[] = [
   { name: "WS-5000 APERITIF", category: "", image: "https://lh3.googleusercontent.com/XNrG2LIw45kM-I8n0UohFvPwRxmci8h_ukWl_05RWpzmuRoB_Pp6QndlGezurV3IElCZGSbyXWQoKeWaTxS4z_4CQbKgXHQBcayj7GL_ve75" },
 ];
 
-
-const LArmWeponData: PartsType[] = [
-  ...RArmWeponData,
+const LMeleeWeponData: PartsType[] = [
   { name: "PB-033M ASHMEAD", category: "", image: "https://lh3.googleusercontent.com/pad84FAjRqpijOKn1nKoX3iJCs0k6fuqU384nGbn9VDo1VbFUzdCONcRsHS_OqJGSjfUJMuYMa95SdQqKVY4wyKaRdWpV508X4hvGuopUc0X=rw" },
   { name: "VP-67EB", category: "", image: "https://lh3.googleusercontent.com/rdZEw7cHlCo1b9gMWGIjl6W6cdHL_Co422JZ5o4W7bc_Oc6guQEVVixvE6TiArtjNJ7W43hmkHDt-LWoMROcOHq7pSdAfv4_7gM6czyoc9s" },
   { name: "Vvc-770LB", category: "", image: "https://lh3.googleusercontent.com/R6Jvid0n5NxRYvGhIpYqkkhQYhZLS8nNzb20xdEd8jqqJvZkPH-qsMAJDpKrHovdgAWbEF8IB_S6D_PIb8NZaRNSCWJi7PRpsVTn75dSblaJDg" },
@@ -111,13 +109,31 @@ const LArmWeponData: PartsType[] = [
   { name: "IB-C03W2:WLT 101", category: "", image: "https://lh3.googleusercontent.com/FuE8n3wHV5VpSl2K-YpXG6LcYYtQghw1hwwFefboO-Tpw2YeynWTeyLPm6ds4IOtjpX1caBOT57MekP169TbWOmbfY1anRilzZPHzL07WVI" },
 ];
 
+const LArmWeponData: PartsType[] = [
+  ...RArmWeponData,
+  ...LMeleeWeponData,
+];
+
 const RBackWeponData: PartsType[] = [
   ...RArmWeponData,
   {name: "SONGBIRDS", category: "", image: "https://lh3.googleusercontent.com/eD7g6JEWB8wR3xfSuKlBkNhyxZ2SlLTbhvH9Coir2B92hsZfGChEAuHjVNBLqgadEvXDyE5LAYghY29LrhdFrjXdUkP1Tmb1sH7G8qbqj9_HfQ=rw"},
 ];
 
+const LShieldData: PartsType[] = [
+  { name: "VP-61PS", category: "", image: "https://lh3.googleusercontent.com/tHCFlMYsLP0pIK6zusAw2gEFrjVC3vnEo5cb0cG6x3Ohn2J-t6i_KbG8kJhuEkSuLXmLqQQ4QhMCTUm4FYD7MIPQurr29S_PRQloJI6y8qIp" },
+  { name: "SI-24:SU-Q5", category: "", image: "https://lh3.googleusercontent.com/ub4AlzFu_9lgJD96SrwiripwdrTpIfXd2q3CntshSHcUfQ_exvt57WildrMIMYQlTVPf4MmJ5I7JXWTZLEJza5BR5KzgoWj5UMYQ7mi9k0Z3" },
+  { name: "SI-27:SU-R", category: "", image: "https://lh3.googleusercontent.com/aTmkiL1Qpw8nYWM3jSrsH6Sk9aVYYvnTaS3JYpSRz2uQEXx_5C8HTsbuDNdyGWVI4RCT1hNrmQ0XuRovfbPy7aAXuNqDCULC1f0ScEbve70" },
+  { name: "VP-61PB", category: "", image: "https://lh3.googleusercontent.com/53oG8Fh2mIeuNWAw7Ej4rN2yT3cavpHa0C38D-2FUFFYcwbzqIlHhrZgjfXZNsVcDmJ020lg_LxGlUKHad5uREoPCyssd4NJAgGRNz5bONJD" },
+  { name: "SI-29:SU-TT/C", category: "", image: "https://lh3.googleusercontent.com/GZGwLrb4zv413BQSs0Hs3_Q8XAeD9WgyPeOzga6OmWXGog85AasSOJ14yHtQ7_oTmhi6tihNrOAz2Hg5QVYbOhOK05Sb5WzpWwooqcCv3AY" },
+  { name: "VE-61PSA", category: "", image: "https://lh3.googleusercontent.com/_Nj-gUtNim4yVgFPHHMGWL7WHHoO0i3dPieen5WBGb8PWyN57F7PIGTHLzTowizaZb4nDW3f_uOgHrPnC7xtdzzNpDJWl-m5zWkRB65d9iPrFQ" },
+  { name: "IB-C03W4:NGI 028", category: "", image: "https://lh3.googleusercontent.com/2LpCUgJGOZw5Kv5FGbaYbzcC_jcZ93ym8Ywvp-mrwKJ0sNLV_T8YDMVbPSN4ORpV1QK_SoLgCnqOnwH9f6_joKOflGdRraVVqKPd0kHK-Dw" },
+];
+
 const LBackWeponData: PartsType[] = [
-  ...LArmWeponData,
+  ...RArmWeponData,
+  ...LMeleeWeponData,
+  ...RBackWeponData,
+  ...LShieldData,
   {name: "VP-61PS", category: "", image: "https://lh3.googleusercontent.com/tHCFlMYsLP0pIK6zusAw2gEFrjVC3vnEo5cb0cG6x3Ohn2J-t6i_KbG8kJhuEkSuLXmLqQQ4QhMCTUm4FYD7MIPQurr29S_PRQloJI6y8qIp=rw"},
 ];
 
