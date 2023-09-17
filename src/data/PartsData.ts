@@ -2,6 +2,12 @@ import { PartsType } from "../types/Parts";
 
 const RArmWeponData: PartsType[] = [
   {
+    name: "NO EQUIPMENT",
+    category: "",
+    image:
+      ""
+  },
+  {
     name: "RF-024 TURNER",
     category: "",
     image:

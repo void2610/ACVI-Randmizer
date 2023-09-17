@@ -45,12 +45,10 @@ export default function Home() {
 
 
   const checkIsValid = (n: number[] ) => {
-    if (PartsDatas[0][n[0]].name === PartsDatas[2][n[2]].name) {
-      console.log("Check is invalid");
-      return false;
-    }
-    if (PartsDatas[1][n[1]].name === PartsDatas[3][n[3]].name) {
-      console.log("Check is invalid");
+    if (PartsDatas[0][n[0]].name === PartsDatas[2][n[2]].name || PartsDatas[1][n[1]].name === PartsDatas[3][n[3]].name) {
+      if (PartsDatas[0][n[0]].name === "NO EQUIPMENT" || PartsDatas[1][n[1]].name === "NO EQUIPMENT") {
+        return true;
+      }
       return false;
     }
 
