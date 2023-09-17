@@ -116,7 +116,9 @@ const LArmWeponData: PartsType[] = [
 
 const RBackWeponData: PartsType[] = [
   ...RArmWeponData,
-  {name: "SONGBIRDS", category: "", image: "https://lh3.googleusercontent.com/eD7g6JEWB8wR3xfSuKlBkNhyxZ2SlLTbhvH9Coir2B92hsZfGChEAuHjVNBLqgadEvXDyE5LAYghY29LrhdFrjXdUkP1Tmb1sH7G8qbqj9_HfQ=rw"},
+  { name: "SONGBIRDS", category: "", image: "https://lh3.googleusercontent.com/eD7g6JEWB8wR3xfSuKlBkNhyxZ2SlLTbhvH9Coir2B92hsZfGChEAuHjVNBLqgadEvXDyE5LAYghY29LrhdFrjXdUkP1Tmb1sH7G8qbqj9_HfQ=rw" },
+  { name: "VP-60LCS", category: "", image: "https://lh3.googleusercontent.com/m1CU6dgiPH7y0E-jjaebO7D3jqZc6NIkVDDlckm3LZRDcJLqzBjQ1AcnfyA___fQrmRt7wlRkYexj_JMuLH9dXsh67wmlKOp0VlJKNFMZi6U" },
+  { name: "", category: "", image: "" },
 ];
 
 const LShieldData: PartsType[] = [
@@ -134,7 +136,7 @@ const LBackWeponData: PartsType[] = [
   ...LMeleeWeponData,
   ...RBackWeponData,
   ...LShieldData,
-  {name: "VP-61PS", category: "", image: "https://lh3.googleusercontent.com/tHCFlMYsLP0pIK6zusAw2gEFrjVC3vnEo5cb0cG6x3Ohn2J-t6i_KbG8kJhuEkSuLXmLqQQ4QhMCTUm4FYD7MIPQurr29S_PRQloJI6y8qIp=rw"},
+  { name: "VP-61PS", category: "", image: "https://lh3.googleusercontent.com/tHCFlMYsLP0pIK6zusAw2gEFrjVC3vnEo5cb0cG6x3Ohn2J-t6i_KbG8kJhuEkSuLXmLqQQ4QhMCTUm4FYD7MIPQurr29S_PRQloJI6y8qIp=rw" },
 ];
 
 const HeadData: PartsType[] = [
