@@ -1,5 +1,5 @@
 "use client";
-import React, { useState, useCallback } from "react";
+import React, { useState, useCallback, useEffect } from "react";
 import {
   ChakraProvider,
   Table,
@@ -31,19 +31,43 @@ export default function Home() {
     );
   }, [randomArray]);
 
-  const buttonHandler = () => {
-    // ボタンをクリックしたときにrandomArrayを更新し、再レンダリングをトリガー
+  const randomize = () => {
     const updatedRandomArray = randomArray.map((e, index) => {
       return Math.floor(Math.random() * PartsDatas[index].length);
     });
-    setRandomArray(updatedRandomArray);
+
+    if (!checkIsValid(updatedRandomArray)) {
+      setTimeout(randomize, 0); // ランダマイズを非同期に再帰呼び出し
+    } else {
+      setRandomArray(updatedRandomArray);
+    }
   };
+
+
+  const checkIsValid = (n: number[] ) => {
+    if (PartsDatas[0][n[0]].name === PartsDatas[2][n[2]].name) {
+      console.log("Check is invalid");
+      return false;
+    }
+    if (PartsDatas[1][n[1]].name === PartsDatas[3][n[3]].name) {
+      console.log("Check is invalid");
+      return false;
+    }
+
+    // ENチェック実装予定
+    console.log("Check is valid");
+    return true;
+  };
+
+  useEffect(() => {
+    randomize(); // コンポーネントがマウントされたときにランダマイズを実行
+  }, []);
 
   return (
     <ChakraProvider>
       <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       <Heading size='2xl'>ACVI Randomizer</Heading>
-        <Button onClick={buttonHandler} colorScheme='teal'>
+        <Button onClick={randomize} colorScheme='teal'>
           Randomize
         </Button>
       </div>
