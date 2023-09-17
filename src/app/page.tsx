@@ -42,25 +42,31 @@ export default function Home() {
   };
 
   return (
-    <ChakraProvider>
-      <Head>
-        <title>ACVI Randomizer</title>
-      </Head>
-        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-        <Heading size='2xl'>ACVI Randomizer</Heading>
-          <Button onClick={buttonHandler} colorScheme='teal'>
-            Randomize
-          </Button>
-        </div>
-        <TableContainer overflowX="auto" maxW="100%">
-        <Table w="100%" variant='simple' size='lg'>
-          <TableCaption>EN出力不足になる場合があります</TableCaption>
-            <Thead position="sticky" top={0} zIndex="docked">
-              <PartsHeader />
-            </Thead>
-            <Tbody suppressHydrationWarning>{showTable()}</Tbody>
-          </Table>
-        </TableContainer>
-    </ChakraProvider>
+    <div>
+      <div>
+        <Head>
+          <title>ACVI Randomizer</title>
+        </Head>
+      </div>
+      <div>
+        <ChakraProvider>
+          <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <Heading size='2xl'>ACVI Randomizer</Heading>
+            <Button onClick={buttonHandler} colorScheme='teal'>
+              Randomize
+            </Button>
+          </div>
+          <TableContainer overflowX="auto" maxW="100%">
+          <Table w="100%" variant='simple' size='lg'>
+            <TableCaption>EN出力不足になる場合があります</TableCaption>
+              <Thead position="sticky" top={0} zIndex="docked">
+                <PartsHeader />
+              </Thead>
+              <Tbody suppressHydrationWarning>{showTable()}</Tbody>
+            </Table>
+          </TableContainer>
+        </ChakraProvider>
+      </div>
+    </div>
   );
 }
