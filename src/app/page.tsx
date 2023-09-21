@@ -52,6 +52,7 @@ export default function Home() {
       return false;
     }
 
+    //aaaa
     // ENチェック実装予定
     console.log("Check is valid");
     return true;
