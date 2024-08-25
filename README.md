@@ -1,6 +1,7 @@
 ACVI Randomizer
 ---
 ARMORED CORE VIのアセンをランダムで選んでくれるやつ
+A web application that randomly selects ARMORED CORE VI assemblies.
 
 Install (開発者向け)
 ---
